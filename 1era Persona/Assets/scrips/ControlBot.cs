@@ -5,17 +5,22 @@ using UnityEngine;
 public class ControlBot : MonoBehaviour
 {
     private int hp;
+    private GameObject jugador;
+    public float rapidez;
+
 
     void Start()
     {
         hp = 100;
-
+        jugador = GameObject.Find("Jugador");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.LookAt(jugador.transform);
+        transform.Translate(rapidez * Vector3.forward * Time.deltaTime);
+
     }
     public void recibirDaño()
     {
@@ -32,4 +37,13 @@ public class ControlBot : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("bala"))
+        {
+            recibirDaño();
+        }
+    }
 }
+
+

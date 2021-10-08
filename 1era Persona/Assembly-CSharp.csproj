@@ -53,9 +53,10 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\scrips\ControlBot.cs" />
     <Compile Include="Assets\scrips\ControlMirarCamara.cs" />
     <Compile Include="Assets\scrips\ControlJugador.cs" />
-    <Compile Include="Assets\scrips\ControlBot.cs" />
+    <Compile Include="Assets\ControlJuego.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

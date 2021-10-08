@@ -96,6 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 974726bfa8f051c43a5b4688c7c3a1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sensibilidad: 5
+  suavizado: 2
+  camaraPrimeraPersona: {fileID: 0}
 --- !u!1 &8079587134598154532
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,3 +226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 254d429e22c492649ac476b739ded978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rapidezDesplazamiento: 10
+  proyectil: {fileID: 3184461751501224292, guid: 44f1a2fb61b43654f96f2dc2d42aff19, type: 3}
+  camaraPrimeraPersona: {fileID: 2329252156794870838}
