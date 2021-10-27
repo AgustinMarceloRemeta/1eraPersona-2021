@@ -1,1 +1,3 @@
-link video en youtube: https://www.youtube.com/watch?v=0nLtuenoLfY
+link video en youtube actualizado (leer la descripción): https://www.youtube.com/watch?v=5WsK-IrCd-M
+Cambios realizados: 1) En la primer versión entregada, cuando el cronometro llegaba a 0, el juego quedaba pausado. Con este ultimo commit se soluciona el error reiniciando al cronometro cuando este llega a 0.
+2) Se achica el tiempo del cronometro para agregar dificultad ( en la primera parte del video se mantiene igual ya que no influye en nada para el mismo).
